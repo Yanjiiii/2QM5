@@ -1,0 +1,40 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .jumbotron {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+  
+  .gallery-item {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
